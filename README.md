@@ -1,29 +1,41 @@
 # MONSTERS
 
-For this practice code challenge, your objective is to build a frontend for our monsters data. Currently the index.html page has a script tag to ```demo.js``` so that you can see a demo of the finished app. Comment out the script tag to ```demo.js``` and uncomment out the script tag to ```index.js``` where you will code your solution
+For this practice code challenge, your objective is to build a frontend for our
+monsters data. Currently, the index.html page has a script tag to ```js/demo.js```
+so that you can see a demo of the finished app. Comment out the script tag to
+```js/demo.js``` and uncomment out the script tag to ```js/index.js``` where you will
+code your solution
 
 ## Getting Started
 
 If you haven't yet, install json-server
+
 ```bash
 npm install -g json-server
 ```
 
 Then run the server with
+
 ```bash
 json-server monsters.json
 ```
 
 ## Objectives
-- When the page loads, show the first 50 monsters. Each monster's name, age, and description should be shown.
-- Above your list of monsters, you should have a form to create a new monster. You should have fields for name, age, and description, and a 'Create Monster Button'. When you click the button, the monster should be added to the list and saved in the API.
-- At the end of the list of monsters, show a button. When clicked, the button should load the next 50 monsters and show them.
 
+- When the page loads, show the first 50 monsters. Each monster's name, age, and
+  description should be shown.
+- Above your list of monsters, you should have a form to create a new monster.
+  You should have fields for name, age, and description, and a 'Create Monster
+  Button'. When you click the button, the monster should be added to the list
+  and saved in the API.
+- At the end of the list of monsters, show a button. When clicked, the button
+  should load the next 50 monsters and show them.
 
 ## API methods
 
 Get the list of monsters
-```js
+
+```text
 GET http://localhost:3000/monsters
 
 optional parameters:
@@ -60,7 +72,7 @@ sample response:
 
 Create a monster
 
-```
+```text
 POST http://localhost:3000/monsters
 headers: 
 {
