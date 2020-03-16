@@ -22,14 +22,29 @@ json-server monsters.json
 
 ## Objectives
 
-- When the page loads, show the first 50 monsters. Each monster's name, age, and
+  <When this event happens> I want to make <this type of fetch call> and manipulate the DOM by <this>
+
+- When the page loads, show the first 10 monsters. Each monster's name, age, and
   description should be shown.
+
+  When DOMContentLoaded, I want to make a GET fetch call to `"http://localhost:3000/monsters?_limit=10"` and make a card for each monster
+
+
 - Above your list of monsters, you should have a form to create a new monster.
   You should have fields for name, age, and description, and a 'Create Monster
-  Button'. When you click the button, the monster should be added to the list
+  Button'. 
+
+  When you click the button, the monster should be added to the list
   and saved in the API.
+
+    When the form is submitted, I want to make a PUT call with the form info and manipulate the DOM by adding the monster to the end of the list
+
 - At the end of the list of monsters, show a button. When clicked, the button
-  should load the next 50 monsters and show them.
+  should load the next/prev 10 monsters and show them.
+
+  When the next/back button is clicked I want to make a GET call to `localhost:3000/monsters?_limit=10&?_page={page_number}` and manipulate the DOM by rendering the next/prev 10 monsters
+
+
 
 ## API methods
 
