@@ -1,4 +1,4 @@
-# MONSTERS
+# Additional Practice: Monsters
 
 For this practice code challenge, your objective is to build a frontend for our
 monsters data. Currently, the index.html page has a script tag to ```js/demo.js```
