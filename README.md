@@ -1,23 +1,23 @@
 # Additional Practice: Monsters
 
 For this practice code challenge, your objective is to build a frontend for our
-monsters data. Currently, the index.html page has a script tag to ```js/demo.js```
+monsters data. Currently, the index.html page has a script tag to `js/demo.js`
 so that you can see a demo of the finished app. Comment out the script tag to
-```js/demo.js``` and uncomment out the script tag to ```js/index.js``` where you will
+`js/demo.js` and uncomment out the script tag to `js/index.js` where you will
 code your solution
 
 ## Getting Started
 
 If you haven't yet, install json-server
 
-```bash
-npm install -g json-server
+```console
+$ npm install -g json-server
 ```
 
 Then run the server with
 
-```bash
-json-server monsters.json
+```console
+$ json-server monsters.json
 ```
 
 ## Objectives
@@ -74,7 +74,7 @@ Create a monster
 
 ```text
 POST http://localhost:3000/monsters
-headers: 
+headers:
 {
   "Content-Type": "application/json",
   Accept: "application/json"
