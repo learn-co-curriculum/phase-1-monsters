@@ -1,26 +1,34 @@
 # Additional Practice: Monsters
 
+## Learning Goals
+
+- Access information from an API using a GET request and use it to update the DOM
+- Listen for user events and update the DOM in response
+- Send data to an API using a POST request
+
+## Introduction
+
 For this practice code challenge, your objective is to build a frontend for our
 monsters data. Currently, the index.html page has a script tag to `js/demo.js`
 so that you can see a demo of the finished app. Comment out the script tag to
 `js/demo.js` and uncomment out the script tag to `js/index.js` where you will
-code your solution
+code your solution.
 
 ## Getting Started
 
-If you haven't yet, install json-server
+If you haven't yet, install `json-server`:
 
 ```console
 $ npm install -g json-server
 ```
 
-Then run the server with
+Then run the server with:
 
 ```console
 $ json-server monsters.json
 ```
 
-## Objectives
+## Deliverables
 
 - When the page loads, show the first 50 monsters. Each monster's name, age, and
   description should be shown.
@@ -33,7 +41,7 @@ $ json-server monsters.json
 
 ## API methods
 
-Get the list of monsters
+Get the list of monsters:
 
 ```text
 GET http://localhost:3000/monsters
@@ -70,7 +78,7 @@ sample response:
 ]
 ```
 
-Create a monster
+Create a monster:
 
 ```text
 POST http://localhost:3000/monsters
@@ -80,6 +88,6 @@ headers:
   Accept: "application/json"
 }
 
-data:
+body:
 { name: string, age: number, description: string }
 ```
