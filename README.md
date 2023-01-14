@@ -2,7 +2,8 @@
 
 ## Learning Goals
 
-- Access information from an API using a GET request and use it to update the DOM
+- Access information from an API using a GET request and use it to update the
+  DOM
 - Listen for user events and update the DOM in response
 - Send data to an API using a POST request
 
@@ -13,6 +14,11 @@ monsters data. Currently, the index.html page has a script tag to `js/demo.js`
 so that you can see a demo of the finished app. Comment out the script tag to
 `js/demo.js` and uncomment out the script tag to `js/index.js` where you will
 code your solution.
+
+Once you're done, be sure to commit and push your code up to GitHub, then submit
+the assignment using CodeGrade. Even though this practice code challenge does
+not have tests, it must still be submitted through CodeGrade in order to be
+marked as complete in Canvas.
 
 ## Getting Started
 
